@@ -74,5 +74,5 @@ app.get('/', (req, res) => {
 })
 
 app.listen(port, () => {
-    console.log("my server is work")
+    console.log("my server is work", port)
 })
